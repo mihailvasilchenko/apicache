@@ -1,0 +1,27 @@
+{
+    "name": "maf/apicache",
+    "description": "API with persistent file caching mechanism",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "authors": [
+        {
+            "name": "Mihail Vasilchenko",
+            "email": "mihail@geekguts.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Apicache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Apicache\\Tests\\": "tests/"
+        }
+    }
+}
